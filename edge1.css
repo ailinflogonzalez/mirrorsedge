@@ -1,0 +1,74 @@
+body {
+  height: 50%;
+  box-shadow: 3px 3px rgb(142,164,187);
+  background-color: rgb(233,240,248);
+}
+
+.collapsible {
+  font-family: 'Montserrat';
+  background-color: rgb(255,0,0);
+  color: white;
+  cursor: pointer;
+  width: 100%;
+  padding: 33px 33px;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.active, .collapsible:hover {
+  background-color: rgb(255,255,255);
+  color: rgb(4,4,7);
+  text-shadow: 1px 1px rgb(142,164,187);
+  font-weight: bolder;
+  opacity: 1;
+}
+
+.content {
+  font-family: 'Montserrat';
+  display: none;
+  overflow: hidden;
+  background-color: rgb(233,240,248);
+  font-size: 12px;
+  line-height: 20px;
+  margin: 30px;
+}
+
+.logo_dice {
+  float: left;
+  padding-top: 13px;
+  padding-right: 9px;
+}
+
+.vista, .gameplay, .logo {
+  float: right;
+}
+
+.city {
+  float: left;
+  margin-right: 9px;
+}
+
+.faith {
+  float: left;
+}
+
+.comic {
+  float: right;
+  padding-left: 7px;
+}
+
+.reboot {
+  float: right;
+  padding-left: 7px;
+  padding-bottom: 7px;
+}
+
+img {
+    transition: transform 1.2s;
+}
+
+img:hover {
+    transform: scale(1.2);
+}
